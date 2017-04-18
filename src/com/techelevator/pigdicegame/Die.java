@@ -25,7 +25,7 @@ public class Die {
 	}
 	
 // DICE METHODS 
-	public int rollDie() {
+	public int roll() {
 		Random rand = new Random();
 		currentPips = rand.nextInt(numberOfFaces - 1) + 1;
 		return currentPips;

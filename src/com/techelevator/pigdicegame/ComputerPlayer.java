@@ -1,6 +1,5 @@
 package com.techelevator.pigdicegame;
 
-public interface Player {
+public class ComputerPlayer {
 
-	
 }
